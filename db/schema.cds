@@ -5,6 +5,7 @@ using { managed, cuid } from '@sap/cds/common';
 /*@assert.unique:{
     studentid:[studentid]
 }*/
+//business patner entity
 entity BuisinessPartner: cuid, managed {
 
     @title: 'Business Partner Number'
@@ -41,7 +42,7 @@ entity BuisinessPartner: cuid, managed {
     is_customer: Boolean default false;
    
 }
-
+//store entity
 entity Store :cuid, managed{
     @title:'StoreID'
     store_id: String(5);
@@ -65,6 +66,7 @@ entity Store :cuid, managed{
     pinc:String(10);
 
 }
+//product entity
 entity Product :cuid, managed{
     @title:'ProductID'
     product_id: String(5);
@@ -88,7 +90,7 @@ entity Product :cuid, managed{
     pinc:String(10);
 
 }
-
+//States entity
 entity States : cuid, managed {
     @title: 'Code'
     code: String(3);
