@@ -60,6 +60,29 @@ entity Store :cuid, managed{
 
     @title:'State'
     statee: Association to States;
+
+    @title:'PINCODE'
+    pinc:String(10);
+
+}
+entity Product :cuid, managed{
+    @title:'ProductID'
+    product_id: String(5);
+
+    @title: 'Name'
+    pname: String(30);
+
+    @title:'Address1'
+    addres_1: String(30);
+
+    @title:'Address2'
+    addres_2: String(30);
+
+    @title:'City'
+    citi: String(20);
+
+    @title:'State'
+    statee: Association to States;
     
     @title:'PINCODE'
     pinc:String(10);
