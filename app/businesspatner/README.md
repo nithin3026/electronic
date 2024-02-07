@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Feb 07 2024 15:11:02 GMT+0530 (India Standard Time)|
+|**Generation Date and Time**<br>Wed Feb 07 2024 15:24:02 GMT+0530 (India Standard Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.12.2|
 |**Generation Platform**<br>Visual Studio Code|
@@ -9,7 +9,7 @@
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/store-db/
 |**Module Name**<br>businesspatner|
-|**Application Title**<br>Business Patner|
+|**Application Title**<br>Business Patner Info|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.120.6|

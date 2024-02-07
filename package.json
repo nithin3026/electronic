@@ -17,12 +17,15 @@
     "start": "cds-serve",
     "watch-businesspatner": "cds watch --open businesspatner/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-storeinfo": "cds watch --open storeinfo/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-storeinfo": "cds watch --open storeinfo/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-strores": "cds watch --open strores/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
     "app/businesspatner",
     "app/project1",
     "app/businesspatner",
-    "app/storeinfo"
+    "app/storeinfo",
+    "app/businesspatner",
+    "app/strores"
   ]
 }

@@ -193,7 +193,7 @@ annotate StoreDB.BuisinessPartner  with {
     )
 };
 
-annotate StoreDB.BuisinessPartner with @(
+annotate StoreDB.Store with @(
     UI.LineItem: [
         {
             $Type : 'UI.DataField',
