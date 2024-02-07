@@ -6,7 +6,7 @@ using { managed, cuid } from '@sap/cds/common';
     studentid:[studentid]
 }*/
 entity BuisinessPartner: cuid, managed {
-    
+
     @title: 'Business Partner Number'
     bp_number: String(5);
 
@@ -40,6 +40,30 @@ entity BuisinessPartner: cuid, managed {
     @title:'IS Customer'
     is_customer: Boolean default false;
    
+}
+
+entity Store :cuid, managed{
+    @title:'StoreID'
+    store_id: String(5);
+
+    @title: 'Name'
+    namee: String(30);
+
+    @title:'Address1'
+    addres_1: String(30);
+
+    @title:'Address2'
+    addres_2: String(30);
+
+    @title:'City'
+    citi: String(20);
+
+    @title:'State'
+    statee: Association to States;
+    
+    @title:'PINCODE'
+    pinc:String(10);
+
 }
 
 entity States : cuid, managed {
